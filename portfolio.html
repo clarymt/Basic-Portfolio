@@ -3,15 +3,20 @@
 
   <head>
     <title>Basic Portfolio</title>
+    
+    <link rel = "stylesheet"
+    type = "text/css"
+    href = "assets/css/style.css" />
+
   </head>
  
   <body>
     <header class="top"> <!--PLACED NAV ELEMENTS IN HEADER FOR POSSIBLE FORMATTING PREFERENCES LATER SUBJECT TO INSPECTION-->
       
-      <h1 class="head name">Matthew Clary</h1>
+      <h1 class="headname">Matthew Clary</h1>
 
      <nav>
-      <a class="head url" href="index.html">About</a> | <a href="portfolio.html">Portfolio</a> | <a href="contact.html">Contact</a>
+      <a class="headurl" href="index.html">About</a> | <a href="portfolio.html">Portfolio</a> | <a href="contact.html">Contact</a>
     </nav>
 
     <!--ADDED CLASS DISTINCTIONS FOR DIFF FORMATTING ON HEAD FOR POSTITIONING VS STYLE-->
@@ -21,31 +26,32 @@
 <!--UPDATED DIV'S ACROSS THE 3 SECTIONS AS "BOX"-->
     <div class="box">  <!--USED DIV TO BOX MAIN SECTION FOR FORMATTING-->
 
-      <h2 class="main title">Portfolio</h2>
+      <h2 class="maintitle">Portfolio</h2>
 
  <!--ADDED HR AS HORIZONTAL BREAK ELEMENT WITHIN BOXED SECTION-->
       <hr>
         
       <div class="container"
       <!--KEEP FIGCAPTION OPTION ON RADAR FOR TEXT WITHIN IMAGES-->
-        <figure>
-            <figcaption></figcaption>
+
+        <figure class="figure"> <img src="assets\images\placeholder1.jpg" alt="yo">
+            <figcaption class="figcaption">Hangman</figcaption>
+         </figure>
+        
+        <figure class="figure"> <img src="assets\images\placeholder2.jpg" alt="alt mean alternative to seeing the image neat huh">
+                <figcaption class="figcaption">RPG Game</figcaption>
         </figure>
         
-        <figure>
-                <figcaption></figcaption>
+        <figure class="figure"> <img src="assets\images\placeholder3.jpg" alt="wat">"
+                <figcaption class="figcaption">Trivia Game</figcaption>
         </figure>
         
-        <figure>
-                <figcaption></figcaption>
+        <figure class="figure"> <img src="assets\images\placeholder4.jpg" alt="wat">
+                <figcaption class="figcaption">Rutgers Info Widget</figcaption>
         </figure>
         
-        <figure>
-                <figcaption></figcaption>
-        </figure>
-        
-        <figure>
-            <figcaption></figcaption>
+        <figure class="figure"> <img src="assets\images\placeholder5.jpg" alt="wat">
+            <figcaption class="figcaption">Rock Paper Scissors</figcaption>
         </figure>
     </div>
 
