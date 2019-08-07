@@ -1,3 +1,4 @@
+
 /*Colors Pro-tip: Use the Eye Dropper Chrome extension to find the colors used on web pages.
 
 
@@ -45,34 +46,110 @@ body {
     background: url('https://designshack.net/wp-content/uploads/best-subtle-black-white-background-textures.jpg');
     margin: 0 auto 0 auto;
     padding: 0px;
-    width: 960px;
+    width: 80%;
+    max-width: 1200px;
 
-
-    
+   
 }
+
+nav {
+    text-decoration: none
+  }
 
 header {
    background-color: #ffffff;
    border-bottom: #cccccc;
-   margin: 0;
+   margin: 0px 0px 0px 0px;
    padding-top: 1px;
    padding-bottom: px;
+   
+   border-bottom-style: solid;
+   border-bottom-color: #cccccc;
   background-origin: padding-box;
-  width: 100%
+  width: 100%;
+  position:absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  
+  
 
 }
+
 
 #headercontent {
-    margin: 0 auto; width: 960px;
+    margin: 10px ;
+   
 }
 
-.redirect {
+#redirect {  float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    height:30;
+    width: 50;
+    position: absolute; 
+    top: 0;
+    right: 8.75%;
+    margin-top:20px;
+    
+    
   
 }
- .container {
-    
- }
+.maintitle {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+img {
+    float: left;
+    margin-right: 10px;
+}
 
-p {
-    color:green
+ .container {
+    clear: both;
+    position:center;
+    padding: 30px;
+    padding-top: 0px;
+    width: 960px;
+
+    border: 2px solid #dddddd;
+    margin-top: 100px; 
+    float:left;
+    background-color: #ffffff;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left
+}
+
+
+#paragrapn{
+    position: relative;
+    float: left;
+  
+}
+
+#name {
+    margin-left: 115px;
+    background-color:#4aaaa5;
+    width: 243px;
+    length: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.bottom {position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    border-top-style: solid;
+    border-top-width: 10px;
+    border-top-color: #4aaaa5;
+    background-color: #777777;
+    color: #dddddd;
+    text-align: justify; /* For Edge */ 
+    text-align-last: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px
 }
