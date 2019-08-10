@@ -72,7 +72,7 @@ img {
     color: #777777;
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
-    margin-bottom: 100px
+    margin-bottom: 100px;
 }
 
 
@@ -108,7 +108,7 @@ img {
 .figcaption {
     float: left;
     position: absolute;
-    width: 88%;
+    width: 88.3%;
     text-align: center;
     margin-top: 135px;
     background-color: #4aaaa5;
@@ -129,7 +129,6 @@ figure figcaption {
 #names {
     width: 955px;
     margin: 5px 0px 25px 0px;
-
 }
 
 
